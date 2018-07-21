@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => res.send('Nabla!\n'))
+app.get('/', (req, res) => res.send('Hello Nabla from http://elegance.abdennoor.com !\n'))
 
 app.listen(8080, () => console.log('Listening on port 8080'))
